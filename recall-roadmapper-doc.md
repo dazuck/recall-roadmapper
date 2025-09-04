@@ -3,7 +3,7 @@
 
 ### MVP-First Development Strategy
 
-**Core Principle:** Ship the orbital roadmapping experience in 3 weeks, validate with users, then progressively enhance based on actual usage and demand.
+**Core Principle:** Ship the orbital roadmapping experience rapidly with AI assistance, validate with users, then progressively enhance based on actual usage and demand.
 
 **What We're Building First (MVP):**
 - ✅ Visual canvas with orbital confidence metaphor
@@ -449,7 +449,7 @@ export default function() {
 
 We're prioritizing the core visual roadmapping experience and deferring complex features like authentication, real-time collaboration, and advanced integrations until we validate the core concept with users.
 
-### MVP Scope (Weeks 1-3)
+### MVP Scope
 
 **IN SCOPE:**
 - Canvas with orbital visualization
@@ -469,7 +469,7 @@ We're prioritizing the core visual roadmapping experience and deferring complex 
 - Comments and @mentions
 - Advanced permissions
 
-### Phase 0: Lightweight Setup (2 days)
+### Phase 0: Lightweight Setup
 
 **Simplified Technical Setup:**
 1. Single repository with simple structure
@@ -483,21 +483,21 @@ We're prioritizing the core visual roadmapping experience and deferring complex 
 - Deployed static site
 - Basic project structure
 
-### Phase 1: Core Canvas MVP (Week 1)
+### Phase 1: Core Canvas MVP
 
 Focus entirely on proving the orbital visualization concept works.
 
-**Day 1-2: Canvas Foundation**
+**Canvas Foundation:**
 - Pixi.js setup with pan/zoom
 - Basic rendering pipeline
 - Canvas controls (zoom buttons, reset view)
 
-**Day 3-4: Goals & Orbits**
+**Goals & Orbits:**
 - Goal cards (draggable)
 - Orbital physics (three confidence rings)
 - Visual feedback on drag
 
-**Day 5: Solutions**
+**Solutions:**
 - Solution nodes
 - Confidence-based positioning
 - Basic state management
@@ -507,26 +507,26 @@ Focus entirely on proving the orbital visualization concept works.
 - Smooth performance with 50+ nodes
 - Basic roadmap creation works
 
-### Phase 2: Core Features (Week 2)
+### Phase 2: Core Features
 
 Complete the essential roadmapping features without external dependencies.
 
-**Day 1-2: Semantic Zoom**
+**Semantic Zoom:**
 - Three zoom levels (overview, planning, detail)
 - Progressive detail disclosure
 - Smooth transitions
 
-**Day 3: Decision Logging**
+**Decision Logging:**
 - State changes with rationales
 - Local storage persistence
 - History view panel
 
-**Day 4: Components Layer**
+**Components Layer:**
 - Sub-items under solutions
 - Nested visualization
 - Basic clustering
 
-**Day 5: Export & Share**
+**Export & Share:**
 - Export to PNG
 - Export to JSON
 - Share via URL (with embedded data)
@@ -536,20 +536,20 @@ Complete the essential roadmapping features without external dependencies.
 - Zoom reveals appropriate detail at each level
 - Data persists between sessions
 
-### Phase 3: Polish & Public Launch (Week 3)
+### Phase 3: Polish & Public Launch
 
-**Day 1-2: UI Polish**
+**UI Polish:**
 - Keyboard shortcuts
 - Context menus
 - Improved visual design
 - Mobile view (read-only)
 
-**Day 3: Import Data**
+**Import Data:**
 - CSV import template
 - JSON import
 - Sample roadmaps
 
-**Day 4-5: Launch Prep**
+**Launch Prep:**
 - Landing page
 - Documentation
 - Video tutorial
@@ -565,7 +565,7 @@ Complete the essential roadmapping features without external dependencies.
 
 ## Post-MVP Phases (Based on User Feedback)
 
-### Phase 4: Backend & Persistence (Week 4-5)
+### Phase 4: Backend & Persistence
 
 **Only implement if users request:**
 - User accounts (simple email/password)
@@ -579,7 +579,7 @@ Complete the essential roadmapping features without external dependencies.
 - JWT for sessions
 - Heroku/Railway deployment
 
-### Phase 5: Collaboration (Week 6-7)
+### Phase 5: Collaboration
 
 **Only if validated need:**
 - View-only sharing with link
@@ -589,7 +589,7 @@ Complete the essential roadmapping features without external dependencies.
 
 **Note:** Real-time collaboration deferred until strong demand
 
-### Phase 6: Enterprise Features (Month 2+)
+### Phase 6: Enterprise Features
 
 **Advanced features for paying customers:**
 - SSO/SAML authentication
@@ -693,8 +693,8 @@ const api = {
 ```
 
 **Why This Approach:**
-- **Ship in 3 weeks** instead of 6-8 weeks
-- **$15K budget** instead of $92K
+- **Rapid deployment** with AI-assisted development
+- **Minimal initial investment** instead of large upfront costs
 - **Validate core UX** before building infrastructure
 - **No technical debt** - start simple, enhance progressively
 
@@ -1066,7 +1066,7 @@ interface FeedbackWidget {
 
 ## Cost Estimation & Resource Planning
 
-### MVP Costs (Weeks 1-3)
+### MVP Costs (Phases 1-3)
 
 **Infrastructure (Monthly):**
 - Vercel/Netlify hosting: $0 (free tier)
@@ -1079,9 +1079,9 @@ interface FeedbackWidget {
 - **Total Services: ~$9/month**
 
 **Team (Lean):**
-- 1 Full-Stack Developer: 3 weeks
-- 0.25 Designer: 1 week consultation
-- **Total Team Cost: ~$15,000**
+- 1 Full-Stack Developer (AI-assisted)
+- 0.25 Designer consultation
+- **Total Implementation Cost: Variable based on approach**
 
 ### Phase 4-5 Costs (If Validated)
 
@@ -1111,10 +1111,10 @@ interface FeedbackWidget {
 
 ### Comparison: MVP vs Full Product
 
-| Aspect | MVP (Week 1-3) | Full Product (Month 2+) |
+| Aspect | MVP (Phases 1-3) | Full Product (Phase 6+) |
 |--------|---------------|------------------------|
-| **Development Cost** | $15,000 | $92,500 |
-| **Time to Market** | 3 weeks | 6-8 weeks |
+| **Development Cost** | Variable (AI-assisted) | Enterprise pricing |
+| **Time to Market** | Fast iteration | Extended development |
 | **Monthly Cost** | $10 | $700+ |
 | **Team Size** | 1-2 people | 4-6 people |
 | **Features** | Core roadmapping | Full collaboration |
@@ -1125,18 +1125,17 @@ interface FeedbackWidget {
 ### ROI Projections (Revised)
 
 **MVP Path:**
-- Launch cost: $15,000
+- Launch cost: Minimal (AI-assisted development)
 - Validate with 10 early adopters
 - Charge $49/month initially
-- Break-even: Month 6 (10 paying users)
+- Break-even: After 10 paying users
 - Decision point for Phase 4-6 investment
 
 **Scale Path (If Validated):**
-- Additional investment: $50,000
+- Additional investment based on demand
 - Target: 100 teams @ $99/month  
-- Break-even: Month 12
-- Projected ARR Year 1: $60,000
-- Projected ARR Year 2: $250,000
+- Focus on sustainable growth
+- Progressive feature rollout based on customer needs
 
 ---
 
@@ -1293,11 +1292,11 @@ The four stakeholder groups are (pending final confirmation):
 **Summary of v5.0 Updates - MVP-First Approach:**
 
 **Core Changes:**
-- ✅ **Simplified to 3-week MVP** (was 6-8 weeks)
+- ✅ **AI-assisted rapid development** 
 - ✅ **No authentication required** for MVP
 - ✅ **No backend needed** initially (static site only)
-- ✅ **Reduced cost from $92K to $15K**
-- ✅ **Single developer** can build MVP (was 4-6 person team)
+- ✅ **Minimal upfront investment**
+- ✅ **Single developer** can build MVP with AI assistance
 
 **Deprioritized to Post-MVP:**
 - Authentication & authorization → Phase 6
@@ -1307,10 +1306,10 @@ The four stakeholder groups are (pending final confirmation):
 - Linear integration → Phase 6
 - Comments & @mentions → Phase 5
 
-**MVP Focus (Weeks 1-3):**
-1. **Week 1:** Core canvas with orbital physics
-2. **Week 2:** Zoom, decision logging, export
-3. **Week 3:** Polish and public launch
+**MVP Focus (Phases 1-3):**
+1. **Phase 1:** Core canvas with orbital physics
+2. **Phase 2:** Zoom, decision logging, export
+3. **Phase 3:** Polish and public launch
 
 **Progressive Enhancement Path:**
 - Phase 4: Add backend if users request persistence
@@ -1319,6 +1318,6 @@ The four stakeholder groups are (pending final confirmation):
 
 **Key Benefits:**
 - **Faster validation** of core concept
-- **Lower risk** ($15K vs $92K)
+- **Lower risk** with minimal investment
 - **User-driven development** based on actual usage
 - **No technical debt** from premature optimization
